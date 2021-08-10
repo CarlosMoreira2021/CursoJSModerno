@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: rgb(54, 84, 218);
+            font-size: 16px;
+            font-family: sans-serif;
+
+        }
+    </style>
+    <title>primeiros passos com DOM</title>
+</head>
+
+<body>
+    <H1>primeiros passos com DOM</H1>
+    <p> <strong>vai o resultado</strong> </p>
+    <p><strong>aprendendo usar o DOM</strong></p><br><br>
+    <div id='msg'>clique em mim</div>
+
+    <script>
+        //SELECIONAR POR MARCA
+        var corpo = document.body
+        var p1 = document.getElementsByTagName('p')[0]
+        var q = document.querySelector('div#msg')
+        q.style.background='red'
+        q.innerHTML='ola'
+        document.getElementsByClassName
+    </script>
+</body>
+
+</html>
