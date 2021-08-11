@@ -12,7 +12,7 @@ var diaSem = agora.getDay();
 */
 
 
-switch(diaSem){
+switch (diaSem){
     case 0 :
         console.log('domingo')
     break;
