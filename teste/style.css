@@ -9,13 +9,12 @@
     height: 800px;
     width: 600px;
     display: flex;
-    flex-direction: column;    
-    
+    flex-direction:column;
 }
 
 h1 {
   font-size: x-large;
-  
+  text-align: center;
 }
 
 input{
