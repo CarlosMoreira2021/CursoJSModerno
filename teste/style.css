@@ -1,0 +1,100 @@
+* {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(175, 199, 238);
+}
+
+#container{
+    height: 800px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+h1 {
+  font-size: x-large;
+  
+}
+
+input{
+    background-color: rgb(203, 203, 212);
+}
+
+
+p {
+  font-weight: bolder;
+  background-color: white;
+}
+
+.botao {
+  
+  display: inline-block;
+  font: inherit;
+  font-weight: bolder;
+  height: 50px;
+  width: 150px;
+  border: 3px solid gray;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 1px rgba(255, 255, 255, 0.87);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.botao:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0 0 0 0 rgb(36, 158, 189), inset 3px 3px 3px rgb(0, 122, 153);
+}
+
+.botao:hover {
+  cursor: pointer;
+  background: rgb(20, 144, 160);
+}
+
+#container-veiculo {
+  border-radius: 10px;
+  background-color: white;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid white;
+  
+}
+
+#container-moto {
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#container-uti {
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#container-caminhao {
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  height: 300px;
+  width: 400px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#copy {
+   padding-top: 300px;
+    background-color: rgb(175, 199, 238);
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

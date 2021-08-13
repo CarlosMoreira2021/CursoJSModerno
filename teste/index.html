@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/teste/style.css">
+    <title>cotacao</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div id="Logo">
+        <img src="/teste/awa.png" alt="">
+    </div>
+    <section id="container">
+        <h1>Faça sua cotação</h1>
+        <div id="container-veiculo">
+            <p>INSIRA A FIPE DO VEICULO:</p>
+            <input type="text" name="fipe" id="fipe"><br><br>
+            <input type="button" value="Carro" onclick="verificar()" class="botao">
+            <p id="res">Preencha os dados acima para obter a cotacao!</p>
+        </div>
+
+
+        <div id="container-moto">
+            <p>INSIRA FIPE DA MOTO :</p> <br>
+            <input type="text" name="fipemoto" id="fipemoto"><br><br>
+            <input type="button" value="Moto" onclick="verificarmoto()" class="botao"><br><br>
+            <p id="resmoto">Preencha os dados acima para obter a cotacao!</p>
+        </div>
+
+        <div id="container-uti">
+            <p>INSIRA FIPE UTILITARIOS:</p> <br>
+            <input type="text" name="fipeuti" id="fipeuti"><br><br>
+            <input type="button" value="Utilitarios" onclick="verificaruti()" class="botao"><br><br>
+            <p id="resuti">Preencha os dados acima para obter a cotacao!</p>
+        </div>
+
+
+        <div id="container-caminhao">
+            <p>INSIRA FIPE CAMINHAO:</p> <br>
+            <input type="text" name="fipecami" id="fipecami"><br><br>
+            <input type="button" value="Caminhao" onclick="verificarcami()" class="botao"><br><br>
+            <p id="rescami">Preencha os dados acima para obter a cotacao!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p id="copy">&copy;Awa protecao veicular</p>
+    </footer>
+
+    <script src="/teste/script.js"></script>
+</body>
+
+</html>
